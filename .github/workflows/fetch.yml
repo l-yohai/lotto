@@ -1,0 +1,26 @@
+name: Fetch Lotto Numbers
+
+on:
+  schedule:
+    # 매주 토요일 오후 9시 (한국 시간 기준)에 실행
+    - cron: '0 12 * * 6'
+
+jobs:
+  fetch-lotto-numbers:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install requests beautifulsoup4
+
+    - name: Fetch Lotto Numbers
+      run: python data/get_latest_lotto_number.py
