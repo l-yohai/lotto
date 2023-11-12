@@ -22,7 +22,7 @@ def append_to_jsonl(jsonl_file, data):
         file.write(json_record + '\n')
 
 def main():
-    jsonl_file = '/mnt/data/lotto_numbers.jsonl'
+    jsonl_file = 'data/lotto_numbers.jsonl'
     last_draw_no = fetch_latest_draw_no(jsonl_file)
     new_draw_no = last_draw_no + 1
     new_lotto_data = fetch_lotto_numbers(new_draw_no)
