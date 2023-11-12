@@ -1,5 +1,11 @@
 # Lottery Number Prediction with Language Models
 
+[![GitHub Repo stars](https://img.shields.io/github/stars/l-yohai/lotto?style=social)](https://github.com/l-yohai/lotto/stargazers)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/l-yohai/lotto)](https://github.com/l-yohai/lotto/commits/main)
+[![GitHub pull request](https://img.shields.io/badge/PRs-welcome-blue)](https://github.com/l-yohai/lotto/pulls)
+
+
 ## Project Description
 This project focuses on training a multi-label classification model and sequence to sequence model using South Korean lottery number data. This project's goal is to predict future lottery numbers based on historical draws. I utilize Python, PyTorch, and the Hugging Face Transformers library for this purpose.
 
@@ -52,3 +58,20 @@ pip install -r requirements.txt
 ## License
 
 This project is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ko) license.
+
+## Citation
+
+If this work is helpful, please kindly cite as:
+
+```bibtex
+@Misc{lotto,
+  title = {Lottery Number Prediction with Language Models},
+  author = {hiyouga},
+  howpublished = {\url{https://github.com/l-yohai/lotto}},
+  year = {2023}
+}
+```
+
+## Star History
+
+![Star History Chart](https://api.star-history.com/svg?repos=l-yohai/lotto&type=Date)
