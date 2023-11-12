@@ -18,13 +18,11 @@ def update_readme_with_actual_numbers(
     updated = False
 
     for i, line in enumerate(lines):
-        print(line, draw_no)
-        if line.startswith(f"- {ordinal(draw_no)} predicted numbers:"):
-            print("Here")
+        if line.startswith(f"- {ordinal(draw_no)} predicted numbers"):
             if not updated:
                 # 현재 예측 내용을 저장하고, 실제 번호 업데이트
-                archived_content = "".join(lines[i : i + 1])
-                lines[i : i + 2] = ""
+                archived_content = "".join(lines[i : i + 3])
+                lines[i : i + 4] = ""
                 updated = True
             else:
                 # 'Latest Prediction' 초기화
@@ -34,7 +32,7 @@ def update_readme_with_actual_numbers(
             # 이전 예측 섹션에 현재 회차 내용 추가
             lines.insert(
                 i + 1,
-                f"\n<details>\n    <summary>{ordinal(draw_no)}</summary>\n\n{archived_content + new_content}\n</details>\n\n",
+                f"\n<details>\n    <summary>{ordinal(draw_no)}</summary>\n\n{archived_content + new_content}\n</details>\n",
             )
             break
 

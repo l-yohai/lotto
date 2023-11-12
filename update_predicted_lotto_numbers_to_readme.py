@@ -13,7 +13,7 @@ def update_readme_with_prediction(
         lines = file.readlines()
 
     # 새로운 예측 내용 추가
-    new_content = f"- {predicted_numbers_text}\n- {ordinal(draw_no)} actual numbers:\n"
+    new_content = f"{predicted_numbers_text}\n- {ordinal(draw_no)} actual numbers:\n"
 
     # 예측 번호 추가
     for i, line in enumerate(lines):

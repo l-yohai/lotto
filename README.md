@@ -17,10 +17,18 @@ Disclaimer: This project is intended purely for entertainment purposes. Lottery 
 <details>
     <summary>1093rd</summary>
 
-- 1093rd predicted numbers: 6, 18, 22, 24, 35, 44, 45
+- 1093rd predicted numbers
+    - bert: 6, 18, 22, 24, 35, 44, 45
+    - bart: 4, 12, 14, 18, 21, 30, 44
 - 1093rd actual numbers: 10, 17, 22, 30, 35, 43, 44
 
 </details>
+
+
+## Model Checkpoints
+
+- [l-yohai/bert_base_lotto](https://huggingface.co/l-yohai/bert_base_lotto?text=1093rd+lottery+numbers)
+- [l-yohai/bart_base_lotto](https://huggingface.co/l-yohai/bart_base_lotto?text=1093rd+lottery+numbers)
 
 
 ## Installation
@@ -38,8 +46,8 @@ pip install -r requirements.txt
 
 1. Data Preparation: Prepare your lottery number data in the data/lotto_numbers.jsonl file.
     * using data/archive_lotto_numbers.py to crawl data from the official website.
-2. Training: Run python train.py to train the model.
-3. Evaluation: Execute python evaluate.py to assess the model's performance.
+2. Training: Run python train_bert.py or train_bart.py to train the model.
+3. Evaluation: Execute python inference.py to assess the model's performance.
 
 ## License
 
