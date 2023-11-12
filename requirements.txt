@@ -1,3 +1,9 @@
 requests
 tqdm
 beautifulsoup4
+torch
+transformers
+tokenizers
+datasets
+scikit-learn
+pre-commit
