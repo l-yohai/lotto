@@ -1,0 +1,36 @@
+name: Predict Lotto Numbers and Update README
+
+on:
+  schedule:
+    - cron: '0 9 * * 5'  # UTC 시간 기준 09:00 (한국 시간 오후 6시)
+
+jobs:
+  predict-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install datasets transformers numpy torch sklearn
+
+    - name: Predict Lotto Numbers
+      run: python inference.py
+
+    - name: Update README
+      run: python update_predicted_lotto_numbers_to_readme.py
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name 'l-yohai'
+        git config --global user.email 'yohan9612@naver.com'
+        git add README.md
+        git commit -m "Update README with predicted lotto numbers"
+        git push
