@@ -7,3 +7,5 @@ tokenizers
 datasets
 scikit-learn
 pre-commit
+evaluate
+rouge-score
