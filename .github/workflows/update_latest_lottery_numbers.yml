@@ -1,4 +1,4 @@
-name: Fetch Lotto Numbers
+name: Update Latest Actual Lotto Numbers and Update README
 
 on:
   schedule:
@@ -24,3 +24,6 @@ jobs:
 
     - name: Fetch Lotto Numbers
       run: python data/get_latest_lotto_number.py
+
+    - name: Update README
+      run: python update_latest_actual_lotto_numbers_to_readme.py
