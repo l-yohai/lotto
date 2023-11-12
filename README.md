@@ -66,7 +66,7 @@ If this work is helpful, please kindly cite as:
 ```bibtex
 @Misc{lotto,
   title = {Lottery Number Prediction with Language Models},
-  author = {hiyouga},
+  author = {l-yohai},
   howpublished = {\url{https://github.com/l-yohai/lotto}},
   year = {2023}
 }
