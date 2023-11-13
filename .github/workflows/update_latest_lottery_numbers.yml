@@ -27,3 +27,11 @@ jobs:
 
     - name: Update README
       run: python update_latest_actual_lotto_numbers_to_readme.py
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.name 'l-yohai'
+        git config --local user.email 'yohan9612@naver.com'
+        git add README.md
+        git commit -m "Update README"
+        git push origin main
