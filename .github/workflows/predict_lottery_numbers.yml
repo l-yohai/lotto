@@ -20,6 +20,7 @@ jobs:
 
     - name: Install dependencies
       run: |
+        pip install --upgrade pip
         pip install -r requirements.txt
 
     - name: Predict Lotto Numbers
@@ -30,8 +31,8 @@ jobs:
 
     - name: Commit and Push Changes
       run: |
-        git config --global user.name 'l-yohai'
-        git config --global user.email 'yohan9612@naver.com'
+        git config --local user.name 'l-yohai'
+        git config --local user.email 'yohan9612@naver.com'
         git add README.md predicted/
         git commit -m "Update README with predicted lotto numbers"
-        git push
+        git push origin main
