@@ -17,6 +17,10 @@ Disclaimer: This project is intended purely for entertainment purposes. Lottery 
 
 ### Latest Prediction
 
+- 1094th predicted numbers
+    - bert: 12, 18, 19, 33, 36, 42, 43
+    - bart: 4, 8, 13, 18, 21, 32, 44
+- 1094th actual numbers:
 
 ### Previous Predictions
 
