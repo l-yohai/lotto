@@ -3,6 +3,7 @@ name: Predict Lotto Numbers and Update README
 on:
   schedule:
     - cron: '0 9 * * 1'  # 매주 월요일 UTC 시간 기준 09:00 (한국 시간 오후 6시)
+  workflow_dispatch:
 
 jobs:
   predict-and-update:

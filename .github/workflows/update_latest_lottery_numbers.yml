@@ -3,6 +3,7 @@ name: Update Latest Actual Lotto Numbers and Update README
 on:
   schedule:
     - cron: '0 1 * * 0' # 매주 일요일 UTC 시간 기준 01:00 (한국 시간 오전 10시)
+  workflow_dispatch:
 
 jobs:
   fetch-lotto-numbers:
