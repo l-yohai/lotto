@@ -35,3 +35,8 @@ jobs:
         git add README.md
         git commit -m "Update README"
         git push origin main
+    - name: Push
+      uses: ad-m/github-push-action@master
+      with:
+        branch: 'main'
+        github_token: $

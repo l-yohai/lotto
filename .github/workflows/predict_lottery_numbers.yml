@@ -36,3 +36,8 @@ jobs:
         git add README.md predicted/
         git commit -m "Update README with predicted lotto numbers"
         git push origin main
+    - name: Push
+      uses: ad-m/github-push-action@master
+      with:
+        branch: 'main'
+        github_token: $
