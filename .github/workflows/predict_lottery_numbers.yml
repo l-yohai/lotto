@@ -20,7 +20,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install datasets transformers numpy torch==2.1.0 sklearn
+        pip install datasets transformers numpy torch==2.1.0 scikit-learn
 
     - name: Predict Lotto Numbers
       run: python inference.py
