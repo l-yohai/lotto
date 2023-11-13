@@ -20,7 +20,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install datasets transformers numpy torch==2.1.0 scikit-learn
+        pip install -r requirements.txt
 
     - name: Predict Lotto Numbers
       run: python inference.py
@@ -32,6 +32,6 @@ jobs:
       run: |
         git config --global user.name 'l-yohai'
         git config --global user.email 'yohan9612@naver.com'
-        git add README.md
+        git add README.md predicted/
         git commit -m "Update README with predicted lotto numbers"
         git push
