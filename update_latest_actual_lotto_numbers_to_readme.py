@@ -47,11 +47,10 @@ if __name__ == "__main__":
     df = pd.read_json("data/lotto_numbers.jsonl", lines=True)
     latest_info = df.iloc[-1]
 
-    actual_numbers = [int(latest_info[f"drwtNo{i}"]) for i in range(1, 7)] + [
-        latest_info["bnusNo"]
-    ]
+    actual_numbers = [int(latest_info[f"drwtNo{i}"]) for i in range(1, 7)]
+    bonus_number = [latest_info["bnusNo"]]
     draw_no = latest_info["drwNo"]
 
-    actual_numbers_text = f"{ordinal(draw_no)} actual numbers: {', '.join(map(str, sorted([num for num in actual_numbers])))}"
+    actual_numbers_text = f"{ordinal(draw_no)} actual numbers: {', '.join(map(str, sorted([num for num in actual_numbers]))) + f', bonus: {bonus_number[0]}'}"
 
     update_readme_with_actual_numbers(readme_path, draw_no, actual_numbers_text)

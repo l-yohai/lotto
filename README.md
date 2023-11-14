@@ -18,8 +18,8 @@ Disclaimer: This project is intended purely for entertainment purposes. Lottery 
 ### Latest Prediction
 
 - 1094th predicted numbers
-    - bert: 12, 18, 19, 33, 36, 42, 43
-    - bart: 4, 8, 13, 18, 21, 32, 44
+    - bert: 12, 18, 19, 33, 36, 42, bonus: 43
+    - bart: 2, 3, 10, 13, 22, 35, bonus: 12
 - 1094th actual numbers:
 
 ### Previous Predictions
@@ -28,8 +28,8 @@ Disclaimer: This project is intended purely for entertainment purposes. Lottery 
     <summary>1093rd</summary>
 
 - 1093rd predicted numbers
-    - bert: 6, 18, 22, 24, 35, 44, 45
-    - bart: 4, 12, 14, 18, 21, 30, 44
+    - bert: 6, 18, 22, 24, 35, 44, bonus: 45
+    - bart: 4, 12, 14, 18, 30, 44, bonus: 21
 - 1093rd actual numbers: 10, 17, 22, 30, 35, 43, 44
 
 </details>

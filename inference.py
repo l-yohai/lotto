@@ -26,9 +26,10 @@ def bert_inference(target_draw_no):
     text = f"{ordinal(target_draw_no)} lottery numbers"
     with torch.no_grad():
         outputs = model(**tokenizer(text, return_tensors="pt")).logits
-    preds = torch.topk(outputs, 7).indices
+    preds = torch.topk(outputs, 7).indices[0].tolist()
+    nums, bonus = preds[:-1], preds[-1]
 
-    result = sorted([p + 1 for p in preds[0].tolist()])
+    result = sorted([p + 1 for p in nums]) + [f"bonus: {bonus + 1}"]
     print(f"bert inference: {result}")
 
     return result
@@ -64,7 +65,8 @@ def bart_inference(target_draw_no):
         # 추출된 튜플에서 숫자만 추출하고 int로 변환
         extracted_numbers = [int(num) for nums in numbers for num in nums if num]
 
-    result = sorted(extracted_numbers)
+    nums, bonus = extracted_numbers[:-1], extracted_numbers[-1]
+    result = sorted(nums) + [f"bonus: {bonus}"]
     print(f"bart inference: {result}")
 
     return result
