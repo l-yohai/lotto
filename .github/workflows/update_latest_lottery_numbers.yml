@@ -33,7 +33,7 @@ jobs:
         git config --local user.name 'l-yohai'
         git config --local user.email 'yohan9612@naver.com'
         git add README.md data/lotto_numbers.jsonl
-        git commit -m "Update README"
+        git commit -m "Update README and latest lotto_numbers"
         git push origin main
     - name: Push
       uses: ad-m/github-push-action@master
