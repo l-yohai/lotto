@@ -17,6 +17,10 @@ Disclaimer: This project is intended purely for entertainment purposes. Lottery 
 
 ### Latest Prediction
 
+- 1095th predicted numbers
+    - bert: 11, 12, 18, 19, 24, 45, bonus: 21
+    - bart: 4, 8, 17, 18, 22, 24, bonus: 27
+- 1095th actual numbers:
 
 ### Previous Predictions
 
