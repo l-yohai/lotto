@@ -20,7 +20,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install requests beautifulsoup4
+        pip install requests beautifulsoup4 pandas
 
     - name: Fetch Lotto Numbers
       run: python data/get_latest_lotto_number.py
