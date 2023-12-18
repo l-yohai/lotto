@@ -17,6 +17,10 @@ Disclaimer: This project is intended purely for entertainment purposes. Lottery 
 
 ### Latest Prediction
 
+- 1099th predicted numbers
+    - bert: 18, 19, 34, 36, 42, 43, bonus: 11
+    - bart: 2, 7, 12, 17, 21, 44, bonus: 43
+- 1099th actual numbers:
 
 ### Previous Predictions
 
