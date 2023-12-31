@@ -17,12 +17,18 @@ Disclaimer: This project is intended purely for entertainment purposes. Lottery 
 
 ### Latest Prediction
 
+
+### Previous Predictions
+
+<details>
+    <summary>1100th</summary>
+
 - 1100th predicted numbers
     - bert: 12, 16, 18, 19, 28, 43, bonus: 33
     - bart: 2, 4, 13, 17, 18, 24, bonus: 1
-- 1100th actual numbers:
+- 1100th actual numbers: 17, 26, 29, 30, 31, 43, bonus: 12
 
-### Previous Predictions
+</details>
 
 <details>
     <summary>1099th</summary>
