@@ -1,0 +1,3 @@
+- 1101st predicted numbers
+    - bert: 6, 18, 23, 27, 35, 45, bonus: 20
+    - bart: 4, 7, 13, 18, 23, 31, bonus: 14
