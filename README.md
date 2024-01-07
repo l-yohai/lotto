@@ -17,12 +17,18 @@ Disclaimer: This project is intended purely for entertainment purposes. Lottery 
 
 ### Latest Prediction
 
+
+### Previous Predictions
+
+<details>
+    <summary>1101st</summary>
+
 - 1101st predicted numbers
     - bert: 6, 18, 23, 27, 35, 45, bonus: 20
     - bart: 4, 7, 13, 18, 23, 31, bonus: 14
-- 1101st actual numbers:
+- 1101st actual numbers: 6, 7, 13, 28, 36, 42, bonus: 41
 
-### Previous Predictions
+</details>
 
 <details>
     <summary>1100th</summary>
