@@ -17,6 +17,10 @@ Disclaimer: This project is intended purely for entertainment purposes. Lottery 
 
 ### Latest Prediction
 
+- 1102nd predicted numbers
+    - bert: 5, 18, 21, 26, 27, 45, bonus: 24
+    - bart: 2, 8, 12, 15, 25, 28, bonus: 17
+- 1102nd actual numbers:
 
 ### Previous Predictions
 
