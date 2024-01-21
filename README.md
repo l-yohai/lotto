@@ -17,12 +17,18 @@ Disclaimer: This project is intended purely for entertainment purposes. Lottery 
 
 ### Latest Prediction
 
+
+### Previous Predictions
+
+<details>
+    <summary>1103rd</summary>
+
 - 1103rd predicted numbers
     - bert: 18, 22, 27, 29, 38, 44, bonus: 43
     - bart: 2, 11, 13, 17, 23, 35, bonus: 38
-- 1103rd actual numbers:
+- 1103rd actual numbers: 10, 12, 29, 31, 40, 44, bonus: 2
 
-### Previous Predictions
+</details>
 
 <details>
     <summary>1102nd</summary>
