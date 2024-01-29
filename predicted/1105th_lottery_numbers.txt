@@ -1,0 +1,3 @@
+- 1105th predicted numbers
+    - bert: 18, 26, 27, 29, 38, 43, bonus: 12
+    - bart: 1, 2, 3, 8, 19, 25, bonus: 43
