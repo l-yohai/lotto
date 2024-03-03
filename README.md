@@ -17,12 +17,18 @@ Disclaimer: This project is intended purely for entertainment purposes. Lottery 
 
 ### Latest Prediction
 
+
+### Previous Predictions
+
+<details>
+    <summary>1109th</summary>
+
 - 1109th predicted numbers
     - bert: 18, 23, 28, 29, 37, 43, bonus: 11
     - bart: 1, 3, 7, 11, 13, 22, bonus: 32
-- 1109th actual numbers:
+- 1109th actual numbers: 10, 12, 13, 19, 33, 40, bonus: 2
 
-### Previous Predictions
+</details>
 
 <details>
     <summary>1108th</summary>
