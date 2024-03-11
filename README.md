@@ -17,6 +17,10 @@ Disclaimer: This project is intended purely for entertainment purposes. Lottery 
 
 ### Latest Prediction
 
+- 1111th predicted numbers
+    - bert: 11, 12, 14, 18, 26, 45, bonus: 23
+    - bart: 2, 6, 14, 15, 24, 27, bonus: 4
+- 1111th actual numbers:
 
 ### Previous Predictions
 
