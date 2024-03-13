@@ -13,6 +13,8 @@ Disclaimer: This project is intended purely for entertainment purposes. Lottery 
 
 ***Additional Note***: Decisions to purchase lottery tickets based on this project's output are solely the responsibility of the viewer. The creator of this project bears no responsibility for any gambling decisions made based on the information provided here.
 
+## -Done-
+
 ## Predicted Lottery Numbers
 
 ### Latest Prediction
