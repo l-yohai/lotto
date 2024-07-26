@@ -1,7 +1,7 @@
 requests
 tqdm
 beautifulsoup4
-torch==2.1.0
+torch>=2.2.0
 transformers
 tokenizers
 datasets
